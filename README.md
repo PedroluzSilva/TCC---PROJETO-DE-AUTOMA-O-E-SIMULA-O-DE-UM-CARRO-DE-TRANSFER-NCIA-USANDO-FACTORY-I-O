@@ -11,8 +11,8 @@ Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais (IFMG) �
 
 ## Sobre o projeto
 
-Este trabalho apresenta o desenvolvimento de um **projeto conceitual de um carro de
-transferência automatizado com inteligência embarcada**, voltado à automação das etapas de
+Este trabalho apresenta o desenvolvimento de um **PROJETO DE AUTOMAÇÃO E SIMULAÇÃO DE UM CARRO DE
+TRANSFERÊNCIA USANDO FACTORY I/O**, voltado à automação das etapas de
 deslocamento e posicionamento de cargas em ambientes industriais (setores siderúrgico,
 cerâmico e refratário).
 
@@ -114,15 +114,9 @@ intertravamento.
 
 1. Abra o projeto no **CODESYS V3.5** (`/codesys`) e faça o login no controlador virtual (SoftPLC).
 2. Abra a cena correspondente no **Factory I/O** (`/factory-io`).
-3. No Factory I/O, configure o driver **Modbus TCP/IP Server** com host `192.168.10.40`, porta
-   `502` e Slave ID `1`, conforme o mapeamento de I/O do projeto.
+3. No Factory I/O, configure o driver **Modbus TCP/IP Server** com host, porta e Slave ID, conforme o mapeamento de I/O do projeto.
 4. Inicie a simulação no Factory I/O e coloque o CODESYS em modo *Run*.
 5. Acione o botão *Start* (modo automático ou manual) pela interface de supervisão do CODESYS.
-
-## Palavras-chave
-
-Automação industrial; Carro de transferência; Inteligência embarcada; CODESYS; Factory I/O;
-Segurança de máquinas; Modbus TCP/IP.
 
 ## Autor
 
